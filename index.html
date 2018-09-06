@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <title>Angenda</title>
+  </head>
+  <body>
+
+<div class="container">
+
+  <h1 class="display-4">Mi Agenda</h1>
+
+  <h2 class="mt-5">Formulario de registro</h2>
+
+
+    <div class="mt-5">
+      <form>
+      
+          <div class="row">
+            <div class="col-6">
+              <div class="form-group row">
+                <label for="textid" class="col-sm-2 col-form-label">Id</label>
+                <div class="col-sm-10">
+                  <input type="number" class="form-control" id="txtId" placeholder="Ingrese el Id">
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="row">
+            <div class="col-6">
+              <div class="form-group row">
+                <label for="texname" class="col-sm-2 col-form-label">Nombre</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="txtName" placeholder="Ingrese el nombre">
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="row">
+            <div class="col-6">
+              <div class="form-group row">
+                <label for="textcountry" class="col-sm-2 col-form-label">País</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="txtCountry" placeholder="Ingrese el país">
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="row">
+            <div class="col-6">
+              <div class="form-group row">
+                <label for="texBirthday" class="col-sm-2 col-form-label">Cumpleaños</label>
+                <div class="col-sm-10">
+                  <input type="date" class="form-control" id="txtBirday" placeholder="Ingrese fecha de nacimiento">
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="row">
+            <div class="col-6">
+              <div class="form-group row">
+                <label for="texEmail" class="col-sm-2 col-form-label">Correo</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="txtEmail" placeholder="Ingrese el Correo">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-6">
+              <div class="form-group row">
+                <button type="button" class="btn btn-default" id="btnSaveFriend">Enviar</button>
+              </div>
+            </div>
+          </div>
+      </form>
+    </div>
+
+</div>
+
+
+<div class="container mt-5">
+  <h2>Mis Amigos</h2>
+  <table class="table table-hover" id="friendsTable">
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Country</th>
+        <th>Birthday</th>
+        <th>Email</th>
+        <th>Select</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+    </tbody>
+  </table>
+</div>
+
+    <script src="js/businessLogic.js"></script>
+    <script src="js/uiLogic.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  </body>
+</html>

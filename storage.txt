@@ -1,0 +1,22 @@
+https://platzi.com/blog/local-storage-html5/
+
+Cómo usar LocalStorage con JavaScript y HTML5
+
+LocalStorage y sessionStorage son propiedades de HTML5 (web storage), que permiten almacenar datos en nuestro navegador web. De manera muy similar a como lo hacen las cookies.
+
+Local Storage
+Guarda información que permanecerá almacenada por tiempo indefinido; sin importar que el navegador se cierre.
+
+Session Storage
+Almacena los datos de una sesión y éstos se eliminan cuando el navegador se cierra.
+
+Las características de Local Storage y Session Storage son:
+Permiten almacenar entre 5MB y 10MB de información; incluyendo texto y multimedia
+La información está almacenada en la computadora del cliente y NO es enviada en cada petición del servidor, a diferencia de las cookies
+Utilizan un número mínimo de peticiones al servidor para reducir el tráfico de la red
+Previenen pérdidas de información cuando se desconecta de la red
+La información es guardada por domino web (incluye todas las páginas del dominio)
+
+**************************************************************************************
+
+para borrar el localStorage escribimos en la consola localStorage.clear(); y luego refrescamos el navegador
